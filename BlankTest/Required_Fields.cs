@@ -83,15 +83,15 @@ namespace BlankTest
             Host.Current.OpenBrowser("https://www.trendyol.com/", "Chrome", "", false, true, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(1));
-            Delay.Duration(20000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYapInfo, new RecordItemIndex(2));
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(3));
-            Delay.Duration(20000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo, new RecordItemIndex(4));
             Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo);

@@ -509,33 +509,17 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
+		<validationitem
+		action="Exists"
 		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
 		optional="False"
-		searchpropertyid="86c7431b-add3-4038-9591-f1f781ed7d2d"
-		sx="1427"
-		sy="268"
-		warnoutofbounds="False">
+		searchpropertyid="bc3b9afa-99c3-4384-882d-ef25ace9df64">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="7d01d482-4c90-4c86-967f-dcf716660d2c"
+			id="50dc6570-a4e6-4e52-87cb-c0847e99e96e"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, atag"
@@ -545,7 +529,7 @@ mode="Global">
 				hasfocus="False"
 				index="0"
 				prefcap="atag"
-				rect="1302,244,250,48"
+				rect="1302,838,250,48"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -586,128 +570,10 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/a[@href&gt;'https://www.trendyol.com/']
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href&gt;'https://www.trendyol.com/']
 				</path>
 				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="f89649dd-e974-4119-a225-8c83f203a5c0"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="f12f63bf-76d4-4ee0-94bd-32fac35eddd4"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, atag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="atag"
-				rect="0,0,0,0"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="tagname"
-					type="System.String">
-						a
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="ng-click"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='www.trendyol.com']//aside[#'CheckoutAside']/section[5]/a[@innertext='Kaydet ve Devam Et']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<validationitem
-		action="Exists"
-		enabled="True"
-		optional="False"
-		searchpropertyid="77f1d133-daba-489f-8b93-c979ec447f93">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="70141e78-4c4d-421a-8023-ec4e091c77e8"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, atag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="atag"
-				rect="0,0,0,0"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="tagname"
-					type="System.String">
-						a
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="ng-click"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="ng-disabled"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='www.trendyol.com']//aside[#'CheckoutAside']/section[6]/a[@innertext='Ödeme Yap']
-				</path>
-				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href&gt;'https://www.trendyol.com/']
 				</robustPath>
 			</info>
 			<matchname>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="27.32s"
+		durationms="27315"
+		type="root"
+		rid="17dc7bc802f0812e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="27.09.2021 02:21:42"
+		timestampiso="2021-09-26T23:21:42"
+		endtime="27.09.2021 02:22:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.234"
+			timeRelativeToTestModuleStartTime="00:06.234"
+			timeWallClock="02:21:48"
+			time="00:06.234"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount"
+				id="d368e1ced0b24c71861ed95f2d304002"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.678"
+			timeRelativeToTestModuleStartTime="00:07.678"
+			timeWallClock="02:21:49"
+			time="00:07.678"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.678"
+			timeRelativeToTestModuleStartTime="00:09.678"
+			timeWallClock="02:21:51"
+			time="00:09.678"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap"
+				id="515fa48f9fc742ddbf5cdc195bab46ba"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.358"
+			timeRelativeToTestModuleStartTime="00:10.358"
+			timeWallClock="02:21:52"
+			time="00:10.358"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.363"
+			timeRelativeToTestModuleStartTime="00:15.363"
+			timeWallClock="02:21:57"
+			time="00:15.363"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap"
+				id="158b6fc56a1b41ffa04119c32430b4d2"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.312"
+			timeRelativeToTestModuleStartTime="00:27.312"
+			timeWallClock="02:22:09"
+			time="00:27.312"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trendyol</name>
+    </assembly>
+    <members>
+        <member name="T:BlankTest.BuyMoreThanOne">
+             <summary>
+            The BuyMoreThanOne recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.BuyMoreThanOne.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.BuyMoreThanOne.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.BuyMoreThanOne.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.BuyMoreThanOne.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.BuyMoreThanOne.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.BuyMoreThanOne.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.BuyMoreThanOne.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.ErrorMessageBlank">
+             <summary>
+            The ErrorMessageBlank recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.ErrorMessageBlank.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ErrorMessageBlank.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ErrorMessageBlank.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.ErrorMessageBlank.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ErrorMessageBlank.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.ErrorMessageBlank.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.ErrorMessageBlank.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.ErrorMessege">
+             <summary>
+            The ErrorMessege recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.ErrorMessege.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ErrorMessege.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ErrorMessege.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.ErrorMessege.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ErrorMessege.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.ErrorMessege.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.ErrorMessege.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.Logout.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.ReportHelpSection">
+             <summary>
+            The ReportHelpSection recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.ReportHelpSection.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ReportHelpSection.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ReportHelpSection.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.ReportHelpSection.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ReportHelpSection.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.ReportHelpSection.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.ReportHelpSection.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.ShoppingCarAdd">
+             <summary>
+            The ShoppingCarAdd recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.ShoppingCarAdd.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ShoppingCarAdd.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ShoppingCarAdd.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.ShoppingCarAdd.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.ShoppingCarAdd.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.ShoppingCarAdd.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.ShoppingCarAdd.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.TrendyolRepository">
+            <summary>
+            The class representing the TrendyolRepository element repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.TrendyolRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TrendyolRepository element repository.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAl folder.
+            </summary>
+        </member>
+        <member name="T:BlankTest.TrendyolRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.EmailLogin">
+            <summary>
+            The EmailLogin item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.EmailLoginInfo">
+            <summary>
+            The EmailLogin item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.PasswordLogin">
+            <summary>
+            The PasswordLogin item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.PasswordLoginInfo">
+            <summary>
+            The PasswordLogin item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.LoginButton">
+            <summary>
+            The LoginButton item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.LoginButtonInfo">
+            <summary>
+            The LoginButton item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.LuetfenGecerliBirEPostaAdresiGirin">
+            <summary>
+            The LuetfenGecerliBirEPostaAdresiGirin item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.LuetfenGecerliBirEPostaAdresiGirinInfo">
+            <summary>
+            The LuetfenGecerliBirEPostaAdresiGirin item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.EnterProductName">
+            <summary>
+            The EnterProductName item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.EnterProductNameInfo">
+            <summary>
+            The EnterProductName item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SearchProduct">
+            <summary>
+            The SearchProduct item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SearchProductInfo">
+            <summary>
+            The SearchProduct item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Tshirt">
+            <summary>
+            The Tshirt item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.TshirtInfo">
+            <summary>
+            The Tshirt item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.AddToCart">
+            <summary>
+            The AddToCart item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.AddToCartInfo">
+            <summary>
+            The AddToCart item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Cart">
+            <summary>
+            The Cart item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartInfo">
+            <summary>
+            The Cart item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartItem">
+            <summary>
+            The CartItem item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartItemInfo">
+            <summary>
+            The CartItem item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Trendyol">
+            <summary>
+            The Trendyol item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.TrendyolInfo">
+            <summary>
+            The Trendyol item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.FvrtBtn">
+            <summary>
+            The FvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.FvrtBtnInfo">
+            <summary>
+            The FvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Favorites">
+            <summary>
+            The Favorites item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.FavoritesInfo">
+            <summary>
+            The Favorites item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.ImgWrapper">
+            <summary>
+            The ImgWrapper item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.ImgWrapperInfo">
+            <summary>
+            The ImgWrapper item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SecondProduct">
+            <summary>
+            The SecondProduct item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SecondProductInfo">
+            <summary>
+            The SecondProduct item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Payment">
+            <summary>
+            The Payment item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.PaymentInfo">
+            <summary>
+            The Payment item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Tshirt2">
+            <summary>
+            The Tshirt2 item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Tshirt2Info">
+            <summary>
+            The Tshirt2 item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.YardımDestek">
+            <summary>
+            The YardımDestek item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.YardımDestekInfo">
+            <summary>
+            The YardımDestek item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Question">
+            <summary>
+            The Question item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.QuestionInfo">
+            <summary>
+            The Question item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.HttpsCdnDsmcdnComWebLogoTyLogo">
+            <summary>
+            The HttpsCdnDsmcdnComWebLogoTyLogo item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.HttpsCdnDsmcdnComWebLogoTyLogoInfo">
+            <summary>
+            The HttpsCdnDsmcdnComWebLogoTyLogo item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartApproval">
+            <summary>
+            The CartApproval item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartApprovalInfo">
+            <summary>
+            The CartApproval item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Accordion">
+            <summary>
+            The Accordion folder.
+            </summary>
+        </member>
+        <member name="T:BlankTest.TrendyolRepositoryFolders.AccordionFolder">
+            <summary>
+            The AccordionFolder folder.
+            </summary>
+        </member>
+        <member name="M:BlankTest.TrendyolRepositoryFolders.AccordionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Accordion  folder.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagSatınAldığınızUeruenlerUeruenDe">
+            <summary>
+            The PTagSatınAldığınızUeruenlerUeruenDe item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagSatınAldığınızUeruenlerUeruenDeInfo">
+            <summary>
+            The PTagSatınAldığınızUeruenlerUeruenDe item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagSiparişDağıtımaCıktığındaKargoF">
+            <summary>
+            The PTagSiparişDağıtımaCıktığındaKargoF item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagSiparişDağıtımaCıktığındaKargoFInfo">
+            <summary>
+            The PTagSiparişDağıtımaCıktığındaKargoF item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagUEruende24SaatteKargodaYazısıV">
+            <summary>
+            The PTagUEruende24SaatteKargodaYazısıV item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagUEruende24SaatteKargodaYazısıVInfo">
+            <summary>
+            The PTagUEruende24SaatteKargodaYazısıV item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagKargoyaVerildiktenSonraSiparişin">
+            <summary>
+            The PTagKargoyaVerildiktenSonraSiparişin item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.AccordionFolder.PTagKargoyaVerildiktenSonraSiparişinInfo">
+            <summary>
+            The PTagKargoyaVerildiktenSonraSiparişin item info.
+            </summary>
+        </member>
+        <member name="T:BlankTest.Required_Fields">
+             <summary>
+            The Required_Fields recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.Required_Fields.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Required_Fields.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Required_Fields.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.Required_Fields.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Required_Fields.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.Required_Fields.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.Required_Fields.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BlankTest.Wishlist">
+             <summary>
+            The Wishlist recording.
+             </summary>
+        </member>
+        <member name="F:BlankTest.Wishlist.repo">
+            <summary>
+            Holds an instance of the TrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Wishlist.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Wishlist.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BlankTest.Wishlist.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BlankTest.Wishlist.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BlankTest.Wishlist.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BlankTest.Wishlist.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

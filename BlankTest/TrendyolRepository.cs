@@ -85,6 +85,7 @@ namespace BlankTest
         [RepositoryFolder("fd8dad48-1889-49fe-a152-5fbae8930ec5")]
         public partial class EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder : RepoGenBaseFolder
         {
+            TrendyolRepositoryFolders.AccordionFolder _accordion;
             RepoItemInfo _girişyapInfo;
             RepoItemInfo _emailloginInfo;
             RepoItemInfo _passwordloginInfo;
@@ -101,14 +102,14 @@ namespace BlankTest
             RepoItemInfo _favoritesInfo;
             RepoItemInfo _imgwrapperInfo;
             RepoItemInfo _secondproductInfo;
-            RepoItemInfo _saveandcontinueInfo;
             RepoItemInfo _paymentInfo;
             RepoItemInfo _tshirt2Info;
-            RepoItemInfo _approvecartInfo;
-            RepoItemInfo _cıkışyapInfo;
-            RepoItemInfo _myaccountInfo;
             RepoItemInfo _yardımdestekInfo;
             RepoItemInfo _questionInfo;
+            RepoItemInfo _httpscdndsmcdncomweblogotylogoInfo;
+            RepoItemInfo _cartapprovalInfo;
+            RepoItemInfo _hesabımInfo;
+            RepoItemInfo _cıkışyapInfo;
 
             /// <summary>
             /// Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
@@ -116,6 +117,7 @@ namespace BlankTest
             public EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder(RepoGenBaseFolder parentFolder) :
                     base("EnTrendUEruenlerTuerkiyeninOnlineAl", "/dom[@domain='www.trendyol.com']", parentFolder, 30000, null, false, "fd8dad48-1889-49fe-a152-5fbae8930ec5", "")
             {
+                _accordion = new TrendyolRepositoryFolders.AccordionFolder(this);
                 _girişyapInfo = new RepoItemInfo(this, "GirişYap", ".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']", ".//div[#'account-navigation-container']//p[@innertext='Giriş Yap']", 30000, null, "158b6fc5-6a1b-41ff-a041-19c32430b4d2");
                 _emailloginInfo = new RepoItemInfo(this, "EmailLogin", ".//input[#'login-email']", ".//input[#'login-email']", 30000, null, "8b7d1a2e-475f-4819-8e4b-7e82f8ded8a9");
                 _passwordloginInfo = new RepoItemInfo(this, "PasswordLogin", ".//input[#'login-password-input']", ".//input[#'login-password-input']", 30000, null, "ba5c1417-6191-40a3-8b33-fe106e472c6f");
@@ -132,14 +134,14 @@ namespace BlankTest
                 _favoritesInfo = new RepoItemInfo(this, "Favorites", ".//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']", ".//div[#'account-navigation-container']//p[@innertext='Favorilerim']", 30000, null, "8547f76f-3f3a-4ae2-98dc-2f5c932ae1ed");
                 _imgwrapperInfo = new RepoItemInfo(this, "ImgWrapper", ".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']/div[1]", ".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']/div[1]", 30000, null, "ddea020b-3309-4c5d-8d30-5f916c06bd15");
                 _secondproductInfo = new RepoItemInfo(this, "SecondProduct", ".//main[#'product-detail-app']/div/aside[1]/div[2]/div/div/div/div[6]/?/?/a[@href>'https://www.trendyol.com/']/?/?/img[@src='https://cdn.dsmcdn.com/ty99/product/media/images/20210406/13/78188487/66369790/1/1_org_thumb.jpg']", ".//main[#'product-detail-app']//img[@src='https://cdn.dsmcdn.com/ty99/product/media/images/20210406/13/78188487/66369790/1/1_org_thumb.jpg']", 30000, null, "5e72d05e-0c8a-4511-a3b0-1b4767270f40");
-                _saveandcontinueInfo = new RepoItemInfo(this, "SaveAndContinue", ".//aside[#'CheckoutAside']/section[5]/a[@innertext='Kaydet ve Devam Et']", ".//aside[#'CheckoutAside']/section[5]/a[@innertext='Kaydet ve Devam Et']", 30000, null, "f12f63bf-76d4-4ee0-94bd-32fac35eddd4");
                 _paymentInfo = new RepoItemInfo(this, "Payment", ".//aside[#'CheckoutAside']/section[6]/a[@innertext='Ödeme Yap']", ".//aside[#'CheckoutAside']/section[6]/a[@innertext='Ödeme Yap']", 30000, null, "70141e78-4c4d-421a-8023-ec4e091c77e8");
                 _tshirt2Info = new RepoItemInfo(this, "Tshirt2", ".//div[#'search-app']/div/div[1]/div[2]/div[2]/div/div[2]/?/?/a[@href>'https://www.trendyol.com/']/div[1]/div[2]/div[2]", ".//div[#'search-app']/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/a[@href>'https://www.trendyol.com/']/div[1]/div[2]/div[2]", 30000, null, "3c5ceb30-993d-4dfc-8238-7e017fe98a1f");
-                _approvecartInfo = new RepoItemInfo(this, "ApproveCart", ".//div[#'pb-container']/aside/div/div[1]/a[@href>'https://www.trendyol.com/']", ".//div[#'pb-container']/aside/div/div[1]/a[@href>'https://www.trendyol.com/']", 30000, null, "7d01d482-4c90-4c86-967f-dcf716660d2c");
-                _cıkışyapInfo = new RepoItemInfo(this, "CıkışYap", ".//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']", ".//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']", 30000, null, "515fa48f-9fc7-42dd-bf5c-dc195bab46ba");
-                _myaccountInfo = new RepoItemInfo(this, "MyAccount", ".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']", ".//div[#'account-navigation-container']//p[@innertext='Hesabım']", 30000, null, "d368e1ce-d0b2-4c71-861e-d95f2d304002");
                 _yardımdestekInfo = new RepoItemInfo(this, "YardımDestek", ".//div[#'headerMain']//ul/?/?/a[@innertext='Yardım & Destek']", ".//div[#'headerMain']//a[@innertext='Yardım & Destek']", 30000, null, "3d5ac442-8d53-4a7c-86ca-1127d73e66b4");
                 _questionInfo = new RepoItemInfo(this, "Question", ".//div[#'accordion']/div[1]", ".//div[#'accordion']/div[1]", 30000, null, "daac30c6-8efa-406b-814e-582c0c3085a0");
+                _httpscdndsmcdncomweblogotylogoInfo = new RepoItemInfo(this, "HttpsCdnDsmcdnComWebLogoTyLogo", ".//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']", ".//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']", 30000, null, "313388a4-0857-4e87-9551-103ed52e241b");
+                _cartapprovalInfo = new RepoItemInfo(this, "CartApproval", ".//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']", ".//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']", 30000, null, "50dc6570-a4e6-4e52-87cb-c0847e99e96e");
+                _hesabımInfo = new RepoItemInfo(this, "Hesabım", ".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']", ".//div[#'account-navigation-container']//p[@innertext='Hesabım']", 30000, null, "0a75f096-752c-42ed-9d8a-182efc10637a");
+                _cıkışyapInfo = new RepoItemInfo(this, "CıkışYap", ".//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']", ".//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']", 30000, null, "6f7dd680-e6af-42d5-9443-05c5e087be11");
             }
 
             /// <summary>
@@ -551,30 +553,6 @@ namespace BlankTest
             }
 
             /// <summary>
-            /// The SaveAndContinue item.
-            /// </summary>
-            [RepositoryItem("f12f63bf-76d4-4ee0-94bd-32fac35eddd4")]
-            public virtual Ranorex.ATag SaveAndContinue
-            {
-                get
-                {
-                    return _saveandcontinueInfo.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SaveAndContinue item info.
-            /// </summary>
-            [RepositoryItemInfo("f12f63bf-76d4-4ee0-94bd-32fac35eddd4")]
-            public virtual RepoItemInfo SaveAndContinueInfo
-            {
-                get
-                {
-                    return _saveandcontinueInfo;
-                }
-            }
-
-            /// <summary>
             /// The Payment item.
             /// </summary>
             [RepositoryItem("70141e78-4c4d-421a-8023-ec4e091c77e8")]
@@ -623,78 +601,6 @@ namespace BlankTest
             }
 
             /// <summary>
-            /// The ApproveCart item.
-            /// </summary>
-            [RepositoryItem("7d01d482-4c90-4c86-967f-dcf716660d2c")]
-            public virtual Ranorex.ATag ApproveCart
-            {
-                get
-                {
-                    return _approvecartInfo.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ApproveCart item info.
-            /// </summary>
-            [RepositoryItemInfo("7d01d482-4c90-4c86-967f-dcf716660d2c")]
-            public virtual RepoItemInfo ApproveCartInfo
-            {
-                get
-                {
-                    return _approvecartInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CıkışYap item.
-            /// </summary>
-            [RepositoryItem("515fa48f-9fc7-42dd-bf5c-dc195bab46ba")]
-            public virtual Ranorex.PTag CıkışYap
-            {
-                get
-                {
-                    return _cıkışyapInfo.CreateAdapter<Ranorex.PTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CıkışYap item info.
-            /// </summary>
-            [RepositoryItemInfo("515fa48f-9fc7-42dd-bf5c-dc195bab46ba")]
-            public virtual RepoItemInfo CıkışYapInfo
-            {
-                get
-                {
-                    return _cıkışyapInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MyAccount item.
-            /// </summary>
-            [RepositoryItem("d368e1ce-d0b2-4c71-861e-d95f2d304002")]
-            public virtual Ranorex.PTag MyAccount
-            {
-                get
-                {
-                    return _myaccountInfo.CreateAdapter<Ranorex.PTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MyAccount item info.
-            /// </summary>
-            [RepositoryItemInfo("d368e1ce-d0b2-4c71-861e-d95f2d304002")]
-            public virtual RepoItemInfo MyAccountInfo
-            {
-                get
-                {
-                    return _myaccountInfo;
-                }
-            }
-
-            /// <summary>
             /// The YardımDestek item.
             /// </summary>
             [RepositoryItem("3d5ac442-8d53-4a7c-86ca-1127d73e66b4")]
@@ -739,6 +645,255 @@ namespace BlankTest
                 get
                 {
                     return _questionInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsCdnDsmcdnComWebLogoTyLogo item.
+            /// </summary>
+            [RepositoryItem("313388a4-0857-4e87-9551-103ed52e241b")]
+            public virtual Ranorex.ImgTag HttpsCdnDsmcdnComWebLogoTyLogo
+            {
+                get
+                {
+                    return _httpscdndsmcdncomweblogotylogoInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsCdnDsmcdnComWebLogoTyLogo item info.
+            /// </summary>
+            [RepositoryItemInfo("313388a4-0857-4e87-9551-103ed52e241b")]
+            public virtual RepoItemInfo HttpsCdnDsmcdnComWebLogoTyLogoInfo
+            {
+                get
+                {
+                    return _httpscdndsmcdncomweblogotylogoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CartApproval item.
+            /// </summary>
+            [RepositoryItem("50dc6570-a4e6-4e52-87cb-c0847e99e96e")]
+            public virtual Ranorex.ATag CartApproval
+            {
+                get
+                {
+                    return _cartapprovalInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CartApproval item info.
+            /// </summary>
+            [RepositoryItemInfo("50dc6570-a4e6-4e52-87cb-c0847e99e96e")]
+            public virtual RepoItemInfo CartApprovalInfo
+            {
+                get
+                {
+                    return _cartapprovalInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Hesabım item.
+            /// </summary>
+            [RepositoryItem("0a75f096-752c-42ed-9d8a-182efc10637a")]
+            public virtual Ranorex.PTag Hesabım
+            {
+                get
+                {
+                    return _hesabımInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Hesabım item info.
+            /// </summary>
+            [RepositoryItemInfo("0a75f096-752c-42ed-9d8a-182efc10637a")]
+            public virtual RepoItemInfo HesabımInfo
+            {
+                get
+                {
+                    return _hesabımInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CıkışYap item.
+            /// </summary>
+            [RepositoryItem("6f7dd680-e6af-42d5-9443-05c5e087be11")]
+            public virtual Ranorex.PTag CıkışYap
+            {
+                get
+                {
+                    return _cıkışyapInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CıkışYap item info.
+            /// </summary>
+            [RepositoryItemInfo("6f7dd680-e6af-42d5-9443-05c5e087be11")]
+            public virtual RepoItemInfo CıkışYapInfo
+            {
+                get
+                {
+                    return _cıkışyapInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Accordion folder.
+            /// </summary>
+            [RepositoryFolder("735f0e52-621d-4e60-ae11-5334feb6fe92")]
+            public virtual TrendyolRepositoryFolders.AccordionFolder Accordion
+            {
+                get { return _accordion; }
+            }
+        }
+
+        /// <summary>
+        /// The AccordionFolder folder.
+        /// </summary>
+        [RepositoryFolder("735f0e52-621d-4e60-ae11-5334feb6fe92")]
+        public partial class AccordionFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _ptagsatınaldığınızueruenlerueruendeInfo;
+            RepoItemInfo _ptagsiparişdağıtımacıktığındakargofInfo;
+            RepoItemInfo _ptagueruende24saattekargodayazısıvInfo;
+            RepoItemInfo _ptagkargoyaverildiktensonrasiparişinInfo;
+
+            /// <summary>
+            /// Creates a new Accordion  folder.
+            /// </summary>
+            public AccordionFolder(RepoGenBaseFolder parentFolder) :
+                    base("Accordion", ".//div[#'accordion']", parentFolder, 30000, null, false, "735f0e52-621d-4e60-ae11-5334feb6fe92", "")
+            {
+                _ptagsatınaldığınızueruenlerueruendeInfo = new RepoItemInfo(this, "PTagSatınAldığınızUeruenlerUeruenDe", "?/?/p[@innertext>'• Satın aldığınız ürünler']", "?/?/p[@innertext>'• Satın aldığınız ürünler']", 30000, null, "6a51081f-81f4-4ccd-8971-f84fe7a94ee4");
+                _ptagsiparişdağıtımacıktığındakargofInfo = new RepoItemInfo(this, "PTagSiparişDağıtımaCıktığındaKargoF", "?/?/p[@innertext>'• Sipariş dağıtıma çıktığında']", "?/?/p[@innertext>'• Sipariş dağıtıma çıktığında']", 30000, null, "0cc1514b-1de5-4112-8137-2d161b9bc84c");
+                _ptagueruende24saattekargodayazısıvInfo = new RepoItemInfo(this, "PTagUEruende24SaatteKargodaYazısıV", "?/?/p[@innertext>'• Üründe “24 saatte kargoda”']", "?/?/p[@innertext>'• Üründe “24 saatte kargoda”']", 30000, null, "e920f2db-f508-4fc6-84ee-7f5053204d0f");
+                _ptagkargoyaverildiktensonrasiparişinInfo = new RepoItemInfo(this, "PTagKargoyaVerildiktenSonraSiparişin", "?/?/p[@innertext>'• Kargoya verildikten sonra']", "?/?/p[@innertext>'• Kargoya verildikten sonra']", 30000, null, "7437d66e-ff02-43cd-ae0f-b25f569fabcd");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("735f0e52-621d-4e60-ae11-5334feb6fe92")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("735f0e52-621d-4e60-ae11-5334feb6fe92")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PTagSatınAldığınızUeruenlerUeruenDe item.
+            /// </summary>
+            [RepositoryItem("6a51081f-81f4-4ccd-8971-f84fe7a94ee4")]
+            public virtual Ranorex.PTag PTagSatınAldığınızUeruenlerUeruenDe
+            {
+                get
+                {
+                    return _ptagsatınaldığınızueruenlerueruendeInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PTagSatınAldığınızUeruenlerUeruenDe item info.
+            /// </summary>
+            [RepositoryItemInfo("6a51081f-81f4-4ccd-8971-f84fe7a94ee4")]
+            public virtual RepoItemInfo PTagSatınAldığınızUeruenlerUeruenDeInfo
+            {
+                get
+                {
+                    return _ptagsatınaldığınızueruenlerueruendeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PTagSiparişDağıtımaCıktığındaKargoF item.
+            /// </summary>
+            [RepositoryItem("0cc1514b-1de5-4112-8137-2d161b9bc84c")]
+            public virtual Ranorex.PTag PTagSiparişDağıtımaCıktığındaKargoF
+            {
+                get
+                {
+                    return _ptagsiparişdağıtımacıktığındakargofInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PTagSiparişDağıtımaCıktığındaKargoF item info.
+            /// </summary>
+            [RepositoryItemInfo("0cc1514b-1de5-4112-8137-2d161b9bc84c")]
+            public virtual RepoItemInfo PTagSiparişDağıtımaCıktığındaKargoFInfo
+            {
+                get
+                {
+                    return _ptagsiparişdağıtımacıktığındakargofInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PTagUEruende24SaatteKargodaYazısıV item.
+            /// </summary>
+            [RepositoryItem("e920f2db-f508-4fc6-84ee-7f5053204d0f")]
+            public virtual Ranorex.PTag PTagUEruende24SaatteKargodaYazısıV
+            {
+                get
+                {
+                    return _ptagueruende24saattekargodayazısıvInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PTagUEruende24SaatteKargodaYazısıV item info.
+            /// </summary>
+            [RepositoryItemInfo("e920f2db-f508-4fc6-84ee-7f5053204d0f")]
+            public virtual RepoItemInfo PTagUEruende24SaatteKargodaYazısıVInfo
+            {
+                get
+                {
+                    return _ptagueruende24saattekargodayazısıvInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PTagKargoyaVerildiktenSonraSiparişin item.
+            /// </summary>
+            [RepositoryItem("7437d66e-ff02-43cd-ae0f-b25f569fabcd")]
+            public virtual Ranorex.PTag PTagKargoyaVerildiktenSonraSiparişin
+            {
+                get
+                {
+                    return _ptagkargoyaverildiktensonrasiparişinInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PTagKargoyaVerildiktenSonraSiparişin item info.
+            /// </summary>
+            [RepositoryItemInfo("7437d66e-ff02-43cd-ae0f-b25f569fabcd")]
+            public virtual RepoItemInfo PTagKargoyaVerildiktenSonraSiparişinInfo
+            {
+                get
+                {
+                    return _ptagkargoyaverildiktensonrasiparişinInfo;
                 }
             }
         }

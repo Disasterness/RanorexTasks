@@ -48,6 +48,12 @@
 			ref="d35316c2-440f-4f5e-b6d8-8eca7048c49c"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="86496ce4-aed6-4002-ad3d-7dd8bf46ff3e"
+			name="ReportHelpSection"
+			ref="e3563876-8ea7-4cfe-aef3-e30cb2f9318b"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="9189f5fb-8ed9-47f9-b9f1-1e3e344f0abf"
 			name="TestCase2">
@@ -172,6 +178,10 @@
 					<testcase
 					id="f63a535f-c4a3-4437-b3a9-2d95b005ea07"
 					name="TestCase8">
+						<testmodule
+						id="86496ce4-aed6-4002-ad3d-7dd8bf46ff3e"
+						name="ReportHelpSection">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>

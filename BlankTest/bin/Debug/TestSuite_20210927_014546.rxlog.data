@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.13s"
+		durationms="3131"
+		type="root"
+		rid="202de65f39953bf0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="27.09.2021 01:45:46"
+		timestampiso="2021-09-26T22:45:46"
+		endtime="27.09.2021 01:45:49"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.388"
+			timeRelativeToTestModuleStartTime="00:02.388"
+			timeWallClock="01:45:48"
+			time="00:02.388"
+			level="Error"
+			category="User">
+			<message>
+				Unexpected exception occurred: Ranorex.RanorexException: There are multiple test suite files in the assembly directory. Please specify the test suite by using command line parameters or rename the test suite file to the current assembly name.<br/>   konum: Ranorex.Core.Testing.TestSuiteRunner.GetTestSuiteXml(Type containerType, String fileName)<br/>   konum: Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs, String testSuiteXml)<br/>   konum: Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs)<br/>   konum: BlankTest.Program.Main(String[] args) c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Program.cs içinde: satır 39
+			</message>
+			<metainfo
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Program.cs"
+				codeline="43"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.22s"
+		durationms="13224"
+		type="root"
+		rid="163326fa4688352e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="27.09.2021 01:54:51"
+		timestampiso="2021-09-26T22:54:51"
+		endtime="27.09.2021 01:55:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ReportHelpSection">
+		<detail>
+			ReportHelpSection
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.696"
+			timeRelativeToTestModuleStartTime="00:09.696"
+			timeWallClock="01:55:01"
+			time="00:09.696"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				itempath=".//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek"
+				id="3d5ac4428d534a7c86ca1127d73e66b4"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.221"
+			timeRelativeToTestModuleStartTime="00:13.221"
+			timeWallClock="01:55:04"
+			time="00:13.221"
+			level="Success"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.UserCode.cs"
+				codeline="39"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

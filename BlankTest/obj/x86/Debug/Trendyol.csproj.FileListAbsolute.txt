@@ -1,0 +1,10 @@
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\BlankTest.rxtmg
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trendyol.rxtst
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trendyol.exe.config
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trendyol.xml
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trendyol.exe
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trendyol.pdb
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\obj\x86\Debug\Trendyol.csprojResolveAssemblyReference.cache
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\obj\x86\Debug\Trendyol.exe
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\obj\x86\Debug\Trendyol.pdb

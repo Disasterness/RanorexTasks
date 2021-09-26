@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trenyol", "BlankTest\Trenyol.csproj", "{B9992946-D9BD-40F7-B8B3-C54BC590FAC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trendyol", "BlankTest\Trendyol.csproj", "{B9992946-D9BD-40F7-B8B3-C54BC590FAC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -79,8 +79,9 @@ namespace BlankTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccountInfo, new RecordItemIndex(0));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount.Click(System.Windows.Forms.MouseButtons.None);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Hesabım' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.HesabımInfo, new RecordItemIndex(0));
+            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Hesabım.MoveTo();
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
@@ -90,26 +91,16 @@ namespace BlankTest
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYapInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYapInfo, new RecordItemIndex(3));
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual ((Choose)='(null)') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual ((Choose)='(null)') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo, new RecordItemIndex(4));
             Validate.AttributeEqual(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo, "(Choose)", (string)null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual ((Choose)='(null)') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLoginInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual ((Choose)='(null)') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLoginInfo, new RecordItemIndex(5));
             Validate.AttributeEqual(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLoginInfo, "(Choose)", (string)null);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo, new RecordItemIndex(8));
-            Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLoginInfo);
             Delay.Milliseconds(0);
             
         }

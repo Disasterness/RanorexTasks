@@ -135,25 +135,8 @@ namespace BlankTest
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Cart.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(15));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.ApproveCart' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.ApproveCartInfo, new RecordItemIndex(16));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.ApproveCart.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.SaveAndContinue' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.SaveAndContinueInfo, new RecordItemIndex(18));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.SaveAndContinue.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Payment'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.PaymentInfo, new RecordItemIndex(20));
-            Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.PaymentInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.CartApproval'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.CartApprovalInfo, new RecordItemIndex(15));
+            Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.CartApprovalInfo);
             Delay.Milliseconds(0);
             
         }

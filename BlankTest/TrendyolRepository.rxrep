@@ -200,17 +200,6 @@ name="TrendyolRepository">
 			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
-			id="f12f63bf-76d4-4ee0-94bd-32fac35eddd4"
-			name="SaveAndContinue"
-			refimgid="6a6ac23c-457b-4a17-a9e2-61f0647aac59"
-			refpath="/dom[@domain='www.trendyol.com']//aside[#'CheckoutAside']/section[5]/a[@innertext='Kaydet ve Devam Et']"
-			robustPath="/dom[@domain='www.trendyol.com']//aside[#'CheckoutAside']/section[5]/a[@innertext='Kaydet ve Devam Et']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//aside[#'CheckoutAside']/section[5]/a[@innertext='Kaydet ve Devam Et']
-			</item>
-			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
 			id="70141e78-4c4d-421a-8023-ec4e091c77e8"
 			name="Payment"
 			refimgid="27defc4a-cbb9-4922-a579-09bfbb5b32d4"
@@ -233,39 +222,6 @@ name="TrendyolRepository">
 			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
-			id="7d01d482-4c90-4c86-967f-dcf716660d2c"
-			name="ApproveCart"
-			refimgid="767c5301-4264-4217-bc2b-97891d30525f"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/a[@href='https://www.trendyol.com/sepetim#/payment']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/a[@href>'https://www.trendyol.com/']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/a[@href&gt;'https://www.trendyol.com/']
-			</item>
-			<item
-			addcaps="unknown,webelement,ptag"
-			capname="ptag"
-			id="515fa48f-9fc7-42dd-bf5c-dc195bab46ba"
-			name="CıkışYap"
-			refimgid="29cb2155-1616-4e04-83d3-a9415414e43a"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[@href='https://www.trendyol.com/authentication/logout']/p[@innertext='Çıkış Yap']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']
-			</item>
-			<item
-			addcaps="unknown,webelement,ptag"
-			capname="ptag"
-			id="d368e1ce-d0b2-4c71-861e-d95f2d304002"
-			name="MyAccount"
-			refimgid="c6ff8e7a-c10d-49b0-bc3c-9026faa78a79"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]/p[@innertext='Hesabım']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Hesabım']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']
-			</item>
-			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
 			id="3d5ac442-8d53-4a7c-86ca-1127d73e66b4"
 			name="YardımDestek"
 			refimgid="2d1af44d-a0d8-4594-9a99-b2fb983801bb"
@@ -284,6 +240,106 @@ name="TrendyolRepository">
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]"
 			searchtimeout="30000ms">
 				/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="735f0e52-621d-4e60-ae11-5334feb6fe92"
+			isrooted="True"
+			name="Accordion"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'accordion']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="6a51081f-81f4-4ccd-8971-f84fe7a94ee4"
+				name="PTagSatınAldığınızUeruenlerUeruenDe"
+				refimgid="12ff5ed6-ab05-433e-b281-27506e8cab48"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]/p[@innertext='• Satın aldığınız ürünler ürün detay sayfasında belirtilen teslimat tarih aralığında teslim edilir. Satın aldığınız ürünlerin teslimat tarihine  &quot;Hesabım&quot; bölümünde   sayfasından da ulaşabilirsiniz.']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext>'• Satın aldığınız ürünler']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext&gt;'&#8226; Sat&#305;n ald&#305;&#287;&#305;n&#305;z &#252;r&#252;nler']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="0cc1514b-1de5-4112-8137-2d161b9bc84c"
+				name="PTagSiparişDağıtımaCıktığındaKargoF"
+				refimgid="978b2ec3-19e7-4f0c-a7a3-3c5248207437"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]/p[@innertext='• Sipariş dağıtıma çıktığında kargo firması tarafından SMS ile bilgilendirilirsiniz.']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext>'• Sipariş dağıtıma çıktığında']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext&gt;'&#8226; Sipari&#351; da&#287;&#305;t&#305;ma &#231;&#305;kt&#305;&#287;&#305;nda']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="e920f2db-f508-4fc6-84ee-7f5053204d0f"
+				name="PTagUEruende24SaatteKargodaYazısıV"
+				refimgid="de5e2ad3-1b4f-4c50-9cf2-b4ac53973818"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]/p[@innertext='• Üründe “24 saatte kargoda” yazısı var ise siparişiniz 24 saat içinde kargoya verilir. Bu ürünler “HIZLI TESLİMAT” ürünleridir.']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext>'• Üründe “24 saatte kargoda”']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext&gt;'&#8226; &#220;r&#252;nde &#8220;24 saatte kargoda&#8221;']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="7437d66e-ff02-43cd-ae0f-b25f569fabcd"
+				name="PTagKargoyaVerildiktenSonraSiparişin"
+				refimgid="3b326916-e2c5-4b70-9411-fd18c211b78c"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]/p[@innertext='• Kargoya verildikten sonra siparişinizin kargo aşamalarını &quot;Hesabım&quot; bölümünde  sekmesinde bulunan “Kargom Nerede?&quot; linkinden takip edebilirsiniz. ']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext>'• Kargoya verildikten sonra']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'accordion']/?/?/p[@innertext&gt;'&#8226; Kargoya verildikten sonra']
+				</item>
+				<basepath>
+					/dom[@domain='www.trendyol.com']//div[#'accordion']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="313388a4-0857-4e87-9551-103ed52e241b"
+			name="HttpsCdnDsmcdnComWebLogoTyLogo"
+			refimgid="0ac1df23-a52a-4b7b-a26d-a8d989ca3cc2"
+			refpath="/dom[@domain='www.trendyol.com']//header[#'paymentHeader']/div/a[@title='trendyol']/img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']"
+			robustPath="/dom[@domain='www.trendyol.com']//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="50dc6570-a4e6-4e52-87cb-c0847e99e96e"
+			name="CartApproval"
+			refimgid="fe4e91d5-4ba3-4ab1-be5f-387e596ddc2f"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href='https://www.trendyol.com/sepetim#/payment']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href&gt;'https://www.trendyol.com/']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="0a75f096-752c-42ed-9d8a-182efc10637a"
+			name="Hesabım"
+			refimgid="3fb1f889-eeea-4064-925f-6a121f99c513"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]/p[@innertext='Hesabım']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Hesabım']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="6f7dd680-e6af-42d5-9443-05c5e087be11"
+			name="CıkışYap"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[@href='https://www.trendyol.com/authentication/logout']/p[@innertext='Çıkış Yap']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']
 			</item>
 			<basepath>
 				/dom[@domain='www.trendyol.com']

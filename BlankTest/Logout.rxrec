@@ -26,14 +26,14 @@ mode="Global">
 	</variables>
 	<recorditems>
 		<mouseitem
-		action="Click"
-		button="None"
+		action="Down"
+		button="Left"
 		duration="300ms"
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="36e3f070-fda4-4345-aa11-e47e72ab3905"
+		searchpropertyid="ce6a71d1-46bf-4b1b-a217-a41bb644f300"
 		sx="1294"
 		sy="158"
 		warnoutofbounds="False">
@@ -42,7 +42,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="d368e1ce-d0b2-4c71-861e-d95f2d304002"
+			id="0a75f096-752c-42ed-9d8a-182efc10637a"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, ptag"
@@ -92,6 +92,7 @@ mode="Global">
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']
 				</path>
 				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Hesabım']
 				</robustPath>
 			</info>
 		</mouseitem>
@@ -112,7 +113,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="159792cd-70f2-4d2e-afb1-b8cc0b18e268"
+		searchpropertyid="c66890df-88ec-42a2-847e-8ede56eb798a"
 		sx="0"
 		sy="103"
 		warnoutofbounds="False">
@@ -121,7 +122,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="515fa48f-9fc7-42dd-bf5c-dc195bab46ba"
+			id="6f7dd680-e6af-42d5-9443-05c5e087be11"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, ptag"
@@ -134,7 +135,7 @@ mode="Global">
 				rect="0,103,0,0"
 				role="unknown"
 				snapElem=""
-				valid="False"
+				valid="True"
 				visible="False">
 					<attribute
 					name="draggable"
@@ -147,6 +148,11 @@ mode="Global">
 						False
 					</attribute>
 					<attribute
+					name="innertext"
+					type="System.String">
+						Çıkış Yap
+					</attribute>
+					<attribute
 					name="tagname"
 					type="System.String">
 						p
@@ -156,18 +162,10 @@ mode="Global">
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']
 				</path>
 				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']
 				</robustPath>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="5000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -176,7 +174,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="eb73b55a-a181-4883-bbbb-26d6682a32f6"
+		searchpropertyid="9a3d38ba-2826-486b-bf51-6b412f193709"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -194,20 +192,11 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
 		optional="False"
-		searchpropertyid="21b37dc2-ba2a-4df4-ad43-577cd1f5cf65">
+		searchpropertyid="6870ace0-3527-4b0c-914c-81210958f4e6">
 			<comment>
 			</comment>
 			<bindings>
@@ -229,7 +218,7 @@ mode="Global">
 		action="AttributeEqual"
 		enabled="True"
 		optional="False"
-		searchpropertyid="e417f137-d596-43e1-b5e3-cf919b79fcef">
+		searchpropertyid="82528484-34b8-4ac9-b041-76a30d4d2c80">
 			<comment>
 			</comment>
 			<bindings>
@@ -246,31 +235,6 @@ mode="Global">
 			<matchname>
 				(Choose)
 			</matchname>
-		</validationitem>
-		<validationitem
-		action="Exists"
-		enabled="True"
-		optional="False"
-		searchpropertyid="60b83b5a-e7cd-4b76-9489-4c1d5896df61">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8b7d1a2e-475f-4819-8e4b-7e82f8ded8a9"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//input[#'login-email']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<matchname>
-				(Choose)
-			</matchname>
-			<matchvalue>
-				yourValue
-			</matchvalue>
 		</validationitem>
 	</recorditems>
 	<repository
