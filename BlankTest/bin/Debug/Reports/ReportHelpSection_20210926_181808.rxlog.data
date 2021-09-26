@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.09s"
+		durationms="17085"
+		type="root"
+		rid="23c7cacf5515ca"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 18:18:12"
+		timestampiso="2021-09-26T15:18:12"
+		endtime="26.09.2021 18:18:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ReportHelpSection">
+		<detail>
+			ReportHelpSection
+		</detail>
+		<errormessage>
+			Attribute '(Choose)' of element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question' does not match the specified value (actual='(null)', expected='yourValue').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.370"
+			timeRelativeToTestModuleStartTime="00:09.370"
+			timeWallClock="18:18:21"
+			time="00:09.370"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				itempath=".//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek"
+				id="3d5ac4428d534a7c86ca1127d73e66b4"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.752"
+			timeRelativeToTestModuleStartTime="00:11.752"
+			timeWallClock="18:18:24"
+			time="00:11.752"
+			level="Info"
+			category="Validation"
+			errimg="images_ReportHe_e8294398\ReportHe_e8294398_bae53ec7_trace.jpg"
+			errthumb="images_ReportHe_e8294398\ReportHe_e8294398_bae53ec7_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual ((Choose)='yourValue') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Question'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]"
+				itempath=".//div[#'accordion']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question"
+				id="daac30c68efa406b814e582c0c3085a0"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.893"
+			timeRelativeToTestModuleStartTime="00:16.893"
+			timeWallClock="18:18:29"
+			time="00:16.893"
+			level="Failure"
+			category="Validation"
+			errimg="images_ReportHe_e8294398\ReportHe_e8294398_aaec1337_trace.jpg"
+			errthumb="images_ReportHe_e8294398\ReportHe_e8294398_aaec1337_trace_thumb.jpg">
+			<message>
+				Attribute '(Choose)' of element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question' does not match the specified value (actual='(null)', expected='yourValue').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]"
+				itempath=".//div[#'accordion']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question"
+				id="daac30c68efa406b814e582c0c3085a0"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.942"
+			timeRelativeToTestModuleStartTime="00:16.942"
+			timeWallClock="18:18:29"
+			time="00:16.942"
+			level="Error"
+			category="Module"
+			errimg="images_ReportHe_e8294398\ReportHe_e8294398_aaec1337_trace.jpg"
+			errthumb="images_ReportHe_e8294398\ReportHe_e8294398_aaec1337_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute '(Choose)' of element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question' does not match the specified value (actual='(null)', expected='yourValue').
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   konum: Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   konum: Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   konum: Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   konum: BlankTest.ReportHelpSection.Ranorex.Core.Testing.ITestModule.Run() c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs içinde: satır 87
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="87"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]"
+				itempath=".//div[#'accordion']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question"
+				id="daac30c68efa406b814e582c0c3085a0"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

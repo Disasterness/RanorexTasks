@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="26.32s"
+		durationms="26321"
+		type="root"
+		rid="2816dcbc7eb41dfa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 02:41:08"
+		timestampiso="2021-09-25T23:41:08"
+		endtime="26.09.2021 02:41:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Wishlist">
+		<detail>
+			Wishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.436"
+			timeRelativeToTestModuleStartTime="00:07.436"
+			timeWallClock="02:41:15"
+			time="00:07.436"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap"
+				id="158b6fc56a1b41ffa04119c32430b4d2"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.880"
+			timeRelativeToTestModuleStartTime="00:09.880"
+			timeWallClock="02:41:17"
+			time="00:09.880"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.890"
+			timeRelativeToTestModuleStartTime="00:11.890"
+			timeWallClock="02:41:19"
+			time="00:11.890"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin"
+				id="8b7d1a2e475f48198e4b7e82f8ded8a9"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.745"
+			timeRelativeToTestModuleStartTime="00:12.745"
+			timeWallClock="02:41:20"
+			time="00:12.745"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'emirucar1999@hotmail.com'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.474"
+			timeRelativeToTestModuleStartTime="00:13.474"
+			timeWallClock="02:41:21"
+			time="00:13.474"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
+				itempath=".//input[#'login-password-input']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin"
+				id="ba5c1417619140a38b33fe106e472c6f"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.994"
+			timeRelativeToTestModuleStartTime="00:13.994"
+			timeWallClock="02:41:22"
+			time="00:13.994"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'galatasaray1905'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.491"
+			timeRelativeToTestModuleStartTime="00:14.491"
+			timeWallClock="02:41:22"
+			time="00:14.491"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.LoginButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.LoginButton"
+				id="a7ceac7b37a246789857d1460f92fdb3"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.977"
+			timeRelativeToTestModuleStartTime="00:14.977"
+			timeWallClock="02:41:23"
+			time="00:14.977"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.978"
+			timeRelativeToTestModuleStartTime="00:16.978"
+			timeWallClock="02:41:25"
+			time="00:16.978"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EnterProductName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'auto-complete-app']//input[@type='text']"
+				itempath=".//div[#'auto-complete-app']//input[@type='text']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EnterProductName"
+				id="1f8a2085b25248368775bb38e0a690fb"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.560"
+			timeRelativeToTestModuleStartTime="00:17.560"
+			timeWallClock="02:41:25"
+			time="00:17.560"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Erkek T-Shirt'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.026"
+			timeRelativeToTestModuleStartTime="00:18.026"
+			timeWallClock="02:41:26"
+			time="00:18.026"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.SearchProduct' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'auto-complete-app']//i"
+				itempath=".//div[#'auto-complete-app']//i"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.SearchProduct"
+				id="fc68de46b1fb4e568c36ea439b2c7e83"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.578"
+			timeRelativeToTestModuleStartTime="00:18.578"
+			timeWallClock="02:41:26"
+			time="00:18.578"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.581"
+			timeRelativeToTestModuleStartTime="00:20.581"
+			timeWallClock="02:41:28"
+			time="00:20.581"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.FvrtBtn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[2]/div/div[5]/?/?/i"
+				itempath=".//div[#'search-app']/div/div[1]/div[2]/div[2]/div/div[5]/?/?/i"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.FvrtBtn"
+				id="cab51549796545ada398baa4fdc0fa4c"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="127"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.694"
+			timeRelativeToTestModuleStartTime="00:21.694"
+			timeWallClock="02:41:29"
+			time="00:21.694"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="131"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.701"
+			timeRelativeToTestModuleStartTime="00:23.701"
+			timeWallClock="02:41:31"
+			time="00:23.701"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Favorites' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				itempath=".//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Favorites"
+				id="8547f76f3f3a4ae298dc2f5c932ae1ed"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="134"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.744"
+			timeRelativeToTestModuleStartTime="00:24.744"
+			timeWallClock="02:41:32"
+			time="00:24.744"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.ImgWrapper'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']/div[1]"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.ImgWrapper"
+				id="ddea020b33094c5d8d305f916c06bd15"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="138"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.319"
+			timeRelativeToTestModuleStartTime="00:26.319"
+			timeWallClock="02:41:34"
+			time="00:26.319"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ImgWrapper' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']/div[1]"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.ImgWrapper"
+				id="ddea020b33094c5d8d305f916c06bd15"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Wishlist.cs"
+				codeline="139"
+				loglvl="Success"
+				itemindex="15">
+			</metainfo>
+		</item>
+	</activity>
+</report>

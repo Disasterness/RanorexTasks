@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="40.41s"
+		durationms="40408"
+		type="root"
+		rid="8431ec9f520f45"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 01:31:31"
+		timestampiso="2021-09-25T22:31:31"
+		endtime="26.09.2021 01:32:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ErrorMessageBlank">
+		<detail>
+			ErrorMessageBlank
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.800"
+			timeRelativeToTestModuleStartTime="00:21.800"
+			timeWallClock="01:31:52"
+			time="00:21.800"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin"
+				id="8b7d1a2e475f48198e4b7e82f8ded8a9"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ErrorMessageBlank.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.075"
+			timeRelativeToTestModuleStartTime="00:25.075"
+			timeWallClock="01:31:56"
+			time="00:25.075"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'fsaas  asdasd'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ErrorMessageBlank.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.532"
+			timeRelativeToTestModuleStartTime="00:25.532"
+			timeWallClock="01:31:56"
+			time="00:25.532"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
+				itempath=".//input[#'login-password-input']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin"
+				id="ba5c1417619140a38b33fe106e472c6f"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ErrorMessageBlank.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.106"
+			timeRelativeToTestModuleStartTime="00:26.106"
+			timeWallClock="01:31:57"
+			time="00:26.106"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sfasd asfafasf  asdas'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ErrorMessageBlank.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.737"
+			timeRelativeToTestModuleStartTime="00:26.737"
+			timeWallClock="01:31:57"
+			time="00:26.737"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.LuetfenGecerliBirEPostaAdresiGirin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']/span[@innertext>'Lütfen geçerli bir e-posta']"
+				itempath=".//div[#'error-box-wrapper']/span[@innertext>'Lütfen geçerli bir e-posta']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.LuetfenGecerliBirEPostaAdresiGirin"
+				id="c3474e5125424872b56b0cd0be5ce14d"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ErrorMessageBlank.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.404"
+			timeRelativeToTestModuleStartTime="00:40.404"
+			timeWallClock="01:32:11"
+			time="00:40.404"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.02s"
+		durationms="17022"
+		type="root"
+		rid="190c77b53b1b2460"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 03:12:40"
+		timestampiso="2021-09-26T00:12:40"
+		endtime="26.09.2021 03:12:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<errormessage>
+			Element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' does exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.425"
+			timeRelativeToTestModuleStartTime="00:06.425"
+			timeWallClock="03:12:46"
+			time="00:06.425"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount"
+				id="d368e1ced0b24c71861ed95f2d304002"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.971"
+			timeRelativeToTestModuleStartTime="00:08.971"
+			timeWallClock="03:12:49"
+			time="00:08.971"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.980"
+			timeRelativeToTestModuleStartTime="00:10.980"
+			timeWallClock="03:12:51"
+			time="00:10.980"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap"
+				id="515fa48f9fc742ddbf5cdc195bab46ba"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.721"
+			timeRelativeToTestModuleStartTime="00:11.721"
+			timeWallClock="03:12:52"
+			time="00:11.721"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.724"
+			timeRelativeToTestModuleStartTime="00:16.724"
+			timeWallClock="03:12:57"
+			time="00:16.724"
+			level="Info"
+			category="Validation"
+			errimg="images_Logout_2_984be9ba\Logout_2_984be9ba_bf320ba1_trace.jpg"
+			errthumb="images_Logout_2_984be9ba\Logout_2_984be9ba_bf320ba1_trace_thumb.jpg">
+			<message>
+				Validating NotExists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount"
+				id="d368e1ced0b24c71861ed95f2d304002"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.889"
+			timeRelativeToTestModuleStartTime="00:16.889"
+			timeWallClock="03:12:57"
+			time="00:16.889"
+			level="Failure"
+			category="Validation"
+			errimg="images_Logout_2_984be9ba\Logout_2_984be9ba_daa61cd8_trace.jpg"
+			errthumb="images_Logout_2_984be9ba\Logout_2_984be9ba_daa61cd8_trace_thumb.jpg">
+			<message>
+				Element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount"
+				id="d368e1ced0b24c71861ed95f2d304002"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="97"
+				loglvl="Failure"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.896"
+			timeRelativeToTestModuleStartTime="00:16.896"
+			timeWallClock="03:12:57"
+			time="00:16.896"
+			level="Error"
+			category="Module"
+			errimg="images_Logout_2_984be9ba\Logout_2_984be9ba_daa61cd8_trace.jpg"
+			errthumb="images_Logout_2_984be9ba\Logout_2_984be9ba_daa61cd8_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' does exist.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   konum: Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   konum: Ranorex.Validate.NotExists(RepoItemInfo itemInfo, String message, Options options)
+   konum: Ranorex.Validate.NotExists(RepoItemInfo itemInfo)
+   konum: BlankTest.Logout.Ranorex.Core.Testing.ITestModule.Run() c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs içinde: satır 97
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="97"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount"
+				id="d368e1ced0b24c71861ed95f2d304002"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

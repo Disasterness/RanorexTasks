@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Trendyol.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Trendyol.rxtst" />
+    <Element value="TrendyolRepository.rxrep" />
+    <Element value="ReportHelpSection.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

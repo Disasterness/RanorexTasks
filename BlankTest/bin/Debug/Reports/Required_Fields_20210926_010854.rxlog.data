@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.64s"
+		durationms="8641"
+		type="root"
+		rid="7c173d9bc4d7736"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 01:09:00"
+		timestampiso="2021-09-25T22:09:00"
+		endtime="26.09.2021 01:09:08"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Required_Fields">
+		<detail>
+			Required_Fields
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.197"
+			timeRelativeToTestModuleStartTime="00:08.197"
+			timeWallClock="01:09:08"
+			time="00:08.197"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Required_Fields.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

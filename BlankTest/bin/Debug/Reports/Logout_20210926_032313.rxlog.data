@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.31s"
+		durationms="20306"
+		type="root"
+		rid="a1e4a46348afd35"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 03:23:18"
+		timestampiso="2021-09-26T00:23:18"
+		endtime="26.09.2021 03:23:38"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.971"
+			timeRelativeToTestModuleStartTime="00:06.971"
+			timeWallClock="03:23:25"
+			time="00:06.971"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.MyAccount"
+				id="d368e1ced0b24c71861ed95f2d304002"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.489"
+			timeRelativeToTestModuleStartTime="00:09.489"
+			timeWallClock="03:23:27"
+			time="00:09.489"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.489"
+			timeRelativeToTestModuleStartTime="00:11.489"
+			timeWallClock="03:23:29"
+			time="00:11.489"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.CıkışYap"
+				id="515fa48f9fc742ddbf5cdc195bab46ba"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.238"
+			timeRelativeToTestModuleStartTime="00:12.238"
+			timeWallClock="03:23:30"
+			time="00:12.238"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.245"
+			timeRelativeToTestModuleStartTime="00:17.245"
+			timeWallClock="03:23:35"
+			time="00:17.245"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.GirişYap"
+				id="158b6fc56a1b41ffa04119c32430b4d2"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.905"
+			timeRelativeToTestModuleStartTime="00:17.905"
+			timeWallClock="03:23:36"
+			time="00:17.905"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.913"
+			timeRelativeToTestModuleStartTime="00:19.913"
+			timeWallClock="03:23:38"
+			time="00:19.913"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual ((Choose)='(null)') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin"
+				id="8b7d1a2e475f48198e4b7e82f8ded8a9"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.067"
+			timeRelativeToTestModuleStartTime="00:20.067"
+			timeWallClock="03:23:38"
+			time="00:20.067"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute '(Choose)' of element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin"
+				id="8b7d1a2e475f48198e4b7e82f8ded8a9"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="104"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.068"
+			timeRelativeToTestModuleStartTime="00:20.068"
+			timeWallClock="03:23:38"
+			time="00:20.068"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual ((Choose)='(null)') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
+				itempath=".//input[#'login-password-input']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin"
+				id="ba5c1417619140a38b33fe106e472c6f"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="107"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.208"
+			timeRelativeToTestModuleStartTime="00:20.208"
+			timeWallClock="03:23:38"
+			time="00:20.208"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute '(Choose)' of element for item 'TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
+				itempath=".//input[#'login-password-input']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.PasswordLogin"
+				id="ba5c1417619140a38b33fe106e472c6f"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.208"
+			timeRelativeToTestModuleStartTime="00:20.208"
+			timeWallClock="03:23:38"
+			time="00:20.208"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin"
+				id="8b7d1a2e475f48198e4b7e82f8ded8a9"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="111"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.303"
+			timeRelativeToTestModuleStartTime="00:20.303"
+			timeWallClock="03:23:38"
+			time="00:20.303"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'EmailLogin' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.EmailLogin"
+				id="8b7d1a2e475f48198e4b7e82f8ded8a9"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\Logout.cs"
+				codeline="112"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

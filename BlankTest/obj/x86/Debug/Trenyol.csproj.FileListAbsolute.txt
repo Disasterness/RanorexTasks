@@ -1,0 +1,10 @@
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\BlankTest.rxtmg
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trendyol.rxtst
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trenyol.exe.config
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trenyol.xml
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trenyol.exe
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Trenyol.pdb
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\obj\x86\Debug\Trenyol.csprojResolveAssemblyReference.cache
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\obj\x86\Debug\Trenyol.exe
+C:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\obj\x86\Debug\Trenyol.pdb

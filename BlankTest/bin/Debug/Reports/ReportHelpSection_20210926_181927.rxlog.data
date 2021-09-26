@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.07s"
+		durationms="8074"
+		type="root"
+		rid="12000e6353db4d2a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="26.09.2021 18:19:31"
+		timestampiso="2021-09-26T15:19:31"
+		endtime="26.09.2021 18:19:39"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ReportHelpSection">
+		<detail>
+			ReportHelpSection
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.705"
+			timeRelativeToTestModuleStartTime="00:06.705"
+			timeWallClock="18:19:38"
+			time="00:06.705"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				itempath=".//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek"
+				id="3d5ac4428d534a7c86ca1127d73e66b4"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.924"
+			timeRelativeToTestModuleStartTime="00:07.924"
+			timeWallClock="18:19:39"
+			time="00:07.924"
+			level="Success"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.UserCode.cs"
+				codeline="39"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.924"
+			timeRelativeToTestModuleStartTime="00:07.924"
+			timeWallClock="18:19:39"
+			time="00:07.924"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Question'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]"
+				itempath=".//div[#'accordion']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question"
+				id="daac30c68efa406b814e582c0c3085a0"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.072"
+			timeRelativeToTestModuleStartTime="00:08.072"
+			timeWallClock="18:19:39"
+			time="00:08.072"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Question' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'accordion']/div[1]"
+				itempath=".//div[#'accordion']/div[1]"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Question"
+				id="daac30c68efa406b814e582c0c3085a0"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="90"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>
