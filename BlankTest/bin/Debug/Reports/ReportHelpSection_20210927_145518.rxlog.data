@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.83s"
+		durationms="7831"
+		type="root"
+		rid="555fbef45284d8c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mustafa"
+		rxversion="10.1.1.0"
+		host="VAIO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="27.09.2021 14:55:22"
+		timestampiso="2021-09-27T11:55:22"
+		endtime="27.09.2021 14:55:30"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ReportHelpSection">
+		<detail>
+			ReportHelpSection
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.329"
+			timeRelativeToTestModuleStartTime="00:06.329"
+			timeWallClock="14:55:29"
+			time="00:06.329"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				itempath=".//div[#'headerMain']//ul/?/?/a[@innertext='Yardım &amp; Destek']"
+				fullname="TrendyolRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek"
+				id="3d5ac4428d534a7c86ca1127d73e66b4"
+				timeout="60000"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.417"
+			timeRelativeToTestModuleStartTime="00:07.417"
+			timeWallClock="14:55:30"
+			time="00:07.417"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -400 units.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.819"
+			timeRelativeToTestModuleStartTime="00:07.819"
+			timeWallClock="14:55:30"
+			time="00:07.819"
+			level="Info"
+			category="Screenshot"
+			errimg="images_ReportHe_3cc85935\ReportHe_6ad66c03_rxlog.jpg"
+			errthumb="images_ReportHe_3cc85935\ReportHe_6ad66c03_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\mustafa\Documents\Ranorex\RanorexStudio Projects\BlankTest\BlankTest\ReportHelpSection.UserCode.cs"
+				codeline="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

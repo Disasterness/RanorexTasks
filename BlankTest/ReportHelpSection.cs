@@ -83,6 +83,13 @@ namespace BlankTest
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.YardımDestek.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -400 units.", new RecordItemIndex(2));
+            Mouse.ScrollWheel(-400);
+            Delay.Milliseconds(300);
+            
             UserCodeMethod(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.QuestionInfo);
             Delay.Milliseconds(0);
             

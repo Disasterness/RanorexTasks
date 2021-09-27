@@ -498,16 +498,6 @@
             The HttpsCdnDsmcdnComWebLogoTyLogo item info.
             </summary>
         </member>
-        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartApproval">
-            <summary>
-            The CartApproval item.
-            </summary>
-        </member>
-        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CartApprovalInfo">
-            <summary>
-            The CartApproval item info.
-            </summary>
-        </member>
         <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Hesabım">
             <summary>
             The Hesabım item.
@@ -526,6 +516,26 @@
         <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.CıkışYapInfo">
             <summary>
             The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.PageContent">
+            <summary>
+            The PageContent item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.PageContentInfo">
+            <summary>
+            The PageContent item info.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
             </summary>
         </member>
         <member name="P:BlankTest.TrendyolRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Accordion">

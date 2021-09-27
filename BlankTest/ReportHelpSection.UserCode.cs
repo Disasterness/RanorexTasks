@@ -34,11 +34,8 @@ namespace BlankTest
         }
         public void UserCodeMethod(RepoItemInfo argument1)
         {
-           string HelpQuestion;
-           HelpQuestion = TrendyolRepository.Instance.EnTrendUEruenlerTuerkiyeninOnlineAl.Question.InnerText;
-          Report.Success(HelpQuestion);
-        
-         
+        	Report.Screenshot();
+          
         }
 
     }

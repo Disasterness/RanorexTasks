@@ -107,9 +107,10 @@ namespace BlankTest
             RepoItemInfo _yardımdestekInfo;
             RepoItemInfo _questionInfo;
             RepoItemInfo _httpscdndsmcdncomweblogotylogoInfo;
-            RepoItemInfo _cartapprovalInfo;
             RepoItemInfo _hesabımInfo;
             RepoItemInfo _cıkışyapInfo;
+            RepoItemInfo _pagecontentInfo;
+            RepoItemInfo _sepetionaylaInfo;
 
             /// <summary>
             /// Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
@@ -139,9 +140,10 @@ namespace BlankTest
                 _yardımdestekInfo = new RepoItemInfo(this, "YardımDestek", ".//div[#'headerMain']//ul/?/?/a[@innertext='Yardım & Destek']", ".//div[#'headerMain']//a[@innertext='Yardım & Destek']", 30000, null, "3d5ac442-8d53-4a7c-86ca-1127d73e66b4");
                 _questionInfo = new RepoItemInfo(this, "Question", ".//div[#'accordion']/div[1]", ".//div[#'accordion']/div[1]", 30000, null, "daac30c6-8efa-406b-814e-582c0c3085a0");
                 _httpscdndsmcdncomweblogotylogoInfo = new RepoItemInfo(this, "HttpsCdnDsmcdnComWebLogoTyLogo", ".//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']", ".//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']", 30000, null, "313388a4-0857-4e87-9551-103ed52e241b");
-                _cartapprovalInfo = new RepoItemInfo(this, "CartApproval", ".//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']", ".//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']", 30000, null, "50dc6570-a4e6-4e52-87cb-c0847e99e96e");
                 _hesabımInfo = new RepoItemInfo(this, "Hesabım", ".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']", ".//div[#'account-navigation-container']//p[@innertext='Hesabım']", 30000, null, "0a75f096-752c-42ed-9d8a-182efc10637a");
                 _cıkışyapInfo = new RepoItemInfo(this, "CıkışYap", ".//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']", ".//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']", 30000, null, "6f7dd680-e6af-42d5-9443-05c5e087be11");
+                _pagecontentInfo = new RepoItemInfo(this, "PageContent", ".//div[#'container']/div/div[3]/div[2]", ".//div[#'container']/div/div[3]/div[2]", 30000, null, "d7cb1341-6ec3-472f-a1bd-1ea2b94ea292");
+                _sepetionaylaInfo = new RepoItemInfo(this, "SepetiOnayla", ".//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']", ".//div[#'pb-container']//span[@innertext='Sepeti Onayla']", 30000, null, "0298ec13-4440-443d-b2d6-3c3e54f697ee");
             }
 
             /// <summary>
@@ -673,30 +675,6 @@ namespace BlankTest
             }
 
             /// <summary>
-            /// The CartApproval item.
-            /// </summary>
-            [RepositoryItem("50dc6570-a4e6-4e52-87cb-c0847e99e96e")]
-            public virtual Ranorex.ATag CartApproval
-            {
-                get
-                {
-                    return _cartapprovalInfo.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CartApproval item info.
-            /// </summary>
-            [RepositoryItemInfo("50dc6570-a4e6-4e52-87cb-c0847e99e96e")]
-            public virtual RepoItemInfo CartApprovalInfo
-            {
-                get
-                {
-                    return _cartapprovalInfo;
-                }
-            }
-
-            /// <summary>
             /// The Hesabım item.
             /// </summary>
             [RepositoryItem("0a75f096-752c-42ed-9d8a-182efc10637a")]
@@ -741,6 +719,54 @@ namespace BlankTest
                 get
                 {
                     return _cıkışyapInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PageContent item.
+            /// </summary>
+            [RepositoryItem("d7cb1341-6ec3-472f-a1bd-1ea2b94ea292")]
+            public virtual Ranorex.DivTag PageContent
+            {
+                get
+                {
+                    return _pagecontentInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PageContent item info.
+            /// </summary>
+            [RepositoryItemInfo("d7cb1341-6ec3-472f-a1bd-1ea2b94ea292")]
+            public virtual RepoItemInfo PageContentInfo
+            {
+                get
+                {
+                    return _pagecontentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SepetiOnayla item.
+            /// </summary>
+            [RepositoryItem("0298ec13-4440-443d-b2d6-3c3e54f697ee")]
+            public virtual Ranorex.SpanTag SepetiOnayla
+            {
+                get
+                {
+                    return _sepetionaylaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SepetiOnayla item info.
+            /// </summary>
+            [RepositoryItemInfo("0298ec13-4440-443d-b2d6-3c3e54f697ee")]
+            public virtual RepoItemInfo SepetiOnaylaInfo
+            {
+                get
+                {
+                    return _sepetionaylaInfo;
                 }
             }
 

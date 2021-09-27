@@ -135,8 +135,8 @@ namespace BlankTest
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Cart.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.CartApproval'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.CartApprovalInfo, new RecordItemIndex(15));
-            Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.CartApprovalInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.SepetiOnayla'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.SepetiOnaylaInfo, new RecordItemIndex(15));
+            Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.SepetiOnaylaInfo);
             Delay.Milliseconds(0);
             
         }

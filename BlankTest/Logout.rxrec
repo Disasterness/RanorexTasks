@@ -27,7 +27,7 @@ mode="Global">
 	<recorditems>
 		<mouseitem
 		action="Down"
-		button="Left"
+		button="None"
 		duration="300ms"
 		enabled="True"
 		loc="Center"
@@ -92,7 +92,6 @@ mode="Global">
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Hesabım']
 				</robustPath>
 			</info>
 		</mouseitem>
@@ -162,7 +161,6 @@ mode="Global">
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']
 				</robustPath>
 			</info>
 		</mouseitem>

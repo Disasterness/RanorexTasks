@@ -79,9 +79,9 @@ namespace BlankTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Hesabım' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.HesabımInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Down item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Hesabım' at Center.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.HesabımInfo, new RecordItemIndex(0));
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Hesabım.MoveTo();
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.None);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));

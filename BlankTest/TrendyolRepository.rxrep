@@ -310,17 +310,6 @@ name="TrendyolRepository">
 				/dom[@domain='www.trendyol.com']//header[#'paymentHeader']//img[@src='https://cdn.dsmcdn.com/web/logo/ty-logo.svg']
 			</item>
 			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="50dc6570-a4e6-4e52-87cb-c0847e99e96e"
-			name="CartApproval"
-			refimgid="fe4e91d5-4ba3-4ab1-be5f-387e596ddc2f"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href='https://www.trendyol.com/sepetim#/payment']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href&gt;'https://www.trendyol.com/']
-			</item>
-			<item
 			addcaps="unknown,webelement,ptag"
 			capname="ptag"
 			id="0a75f096-752c-42ed-9d8a-182efc10637a"
@@ -340,6 +329,28 @@ name="TrendyolRepository">
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[8]/p[@innertext='Çıkış Yap']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d7cb1341-6ec3-472f-a1bd-1ea2b94ea292"
+			name="PageContent"
+			refimgid="87515139-1ec1-4736-822c-ca7edfbdd4d8"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'container']/div/div[3]/div[2]"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'container']/div/div[3]/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'container']/div/div[3]/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0298ec13-4440-443d-b2d6-3c3e54f697ee"
+			name="SepetiOnayla"
+			refimgid="b236e27a-ef4f-4117-951b-b02eb027382a"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/a[@href='https://www.trendyol.com/sepetim#/payment']/span[@innertext='Sepeti Onayla']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']//span[@innertext='Sepeti Onayla']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
 			</item>
 			<basepath>
 				/dom[@domain='www.trendyol.com']

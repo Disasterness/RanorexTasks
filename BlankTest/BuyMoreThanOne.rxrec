@@ -513,36 +513,31 @@ mode="Global">
 		action="Exists"
 		enabled="True"
 		optional="False"
-		searchpropertyid="bc3b9afa-99c3-4384-882d-ef25ace9df64">
+		searchpropertyid="cb38c031-1b9d-4f27-b083-77fdad1defdc">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="50dc6570-a4e6-4e52-87cb-c0847e99e96e"
+			id="0298ec13-4440-443d-b2d6-3c3e54f697ee"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, atag"
+				capabilities="webelement, spantag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="atag"
-				rect="1302,838,250,48"
+				prefcap="spantag"
+				rect="1367,256,105,24"
 				role="unknown"
 				snapElem=""
 				valid="True"
 				visible="True">
 					<attribute
-					name="class"
-					type="System.String">
-						ty-link-btn-primary
-					</attribute>
-					<attribute
 					name="draggable"
 					type="System.String">
-						True
+						False
 					</attribute>
 					<attribute
 					name="hidden"
@@ -552,28 +547,19 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						ty-link-btn-primary
+						Sepeti Onayla
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						a
-					</attribute>
-					<attribute
-					name="href"
-					type="System.String">
-						https://www.trendyol.com/sepetim#/payment
+						span
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href&gt;'https://www.trendyol.com/']
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[5]/a[@href&gt;'https://www.trendyol.com/']
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']//span[@innertext='Sepeti Onayla']
 				</robustPath>
 			</info>
 			<matchname>
